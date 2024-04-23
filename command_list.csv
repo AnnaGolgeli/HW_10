@@ -1,0 +1,42 @@
+    1  git config --global user.name "Anna Golgeli"
+    2  git config --global user.email "anchoota@gmail.com"
+    3  clear
+    4  git clone https://github.com/AnnaGolgeli/HW_10.git
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  vim .gitignore
+    8  cd /c/Users/user/Desktop/QA35
+    9  cd HW_10
+   10  touch text_ignore.txt
+   11  vim .gitignore
+   12  cd /c/Users/user/Desktop/QA35
+   13  cd HW_10
+   14  ls -l
+   15  vim .gitignore
+   16  cd /c/Users/user/Desktop/QA35
+   17  cd HW_10
+   18  vim .gitignore
+   19  git status
+   20  git add .gitignore
+   21  git status
+   22  git commit -m"First commit"
+   23  touch main_test.txt
+   24  ls -l
+   25  git add main_test.txt
+   26  git commit -m"Second commit"
+   27  git checkout -b develop
+   28  touch develop_test.txt
+   29  ls -l
+   30  git add develop_test.txt
+   31  git commit -m"Third commit"
+   32  vim develop_test.txt
+   33  git status
+   34  git add develop_test.txt
+   35  git commit -m"develop_test.txt"
+   36  git checkout main
+   37  git merge develop
+   38  git log
+   39  history > command_list.csv
+   40  history > command_list.csv.
+   41  history > command_list.csv
+   42  history > command_list.csv
